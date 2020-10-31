@@ -8,7 +8,7 @@
         <Grid>
             
             <Label x:Name="lblUser"
-                   Text="Usuario conetado: "
+                   Text="Usuario conectado: "
                    FontSize="24"
                    HorizontalTextAlignment="Center"
                    TextColor="Black">

@@ -64,7 +64,7 @@ namespace ClaudiaMorejon_examen
                
                     resta = 1800 - montoInicial;
                     cuotaSinPorcentaje = resta / 3;
-                    pagoMensual = cuotaSinPorcentaje * 1.05;
+                    pagoMensual = cuotaSinPorcentaje +90 ;
                     total = pagoMensual * 3;
                     lblPago.Text = pagoMensual.ToString();
                     string totalPagar = total.ToString();
