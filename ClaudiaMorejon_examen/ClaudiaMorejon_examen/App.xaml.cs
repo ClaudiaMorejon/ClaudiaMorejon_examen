@@ -10,11 +10,14 @@ namespace ClaudiaMorejon_examen
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart()
         {
+            base.OnStart();
+
+           
         }
 
         protected override void OnSleep()

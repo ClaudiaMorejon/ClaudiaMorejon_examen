@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClaudiaMorejon_examen.Login">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png">
+
+            </Image>
+            
+
+            <Entry x:Name="txtUser"
+                   Placeholder="Ingrese el usuario"
+                   HorizontalTextAlignment="Center">
+            </Entry>
+
+
+            <Entry x:Name="txtPassword"
+                   Placeholder="Ingrese la clave"
+                   IsPassword="True"
+                   HorizontalTextAlignment="Center">
+            </Entry>
+
+            <Button x:Name="btnLogin"
+                    Text="Iniciar sesión"
+                    Clicked="btnLogin_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

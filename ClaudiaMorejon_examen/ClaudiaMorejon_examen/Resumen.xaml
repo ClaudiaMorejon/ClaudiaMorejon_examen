@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClaudiaMorejon_examen.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+
+                <Label x:Name="lblUsuario"
+                   Text="Usuario conectado:: "
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black"
+                   Grid.Row="0">
+
+                </Label>
+
+                <Label x:Name="lblNombre"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black"
+                   Grid.Row="1">
+
+                </Label>
+
+
+                <Label
+                    x:Name="lblTotal"
+                    Text="Total a pagar: "
+                   FontSize="24"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black"
+                       Grid.Row="2">
+
+                </Label>
+
+             
+
+            </Grid>
+
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
